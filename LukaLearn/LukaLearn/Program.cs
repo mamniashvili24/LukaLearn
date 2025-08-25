@@ -7,8 +7,8 @@ class Program
         Console.WriteLine("Hello, From branch 1!");
         Console.WriteLine("Hello, From branch 1!");
         Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello from branch 2!");
+        Console.WriteLine("Hello from branch 2!");
+        Console.WriteLine("Hello from branch 2!");
     }
 }
