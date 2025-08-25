@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, Luka!");
+        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello, From branch 1!");
+        Console.WriteLine("Hello, From branch 1!");
     }
 }
