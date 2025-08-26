@@ -10,6 +10,5 @@ class Program
         Console.WriteLine("Hello from branch 2!");
         Console.WriteLine("Hello from branch 2!");
         Console.WriteLine("Hello from branch 2!");
-        int a = 10;
     }
 }
