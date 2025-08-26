@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Runtime.CompilerServices;
 
 class Program
 {
@@ -30,5 +32,26 @@ class Program
         //        - 109 <= nums[i] <= 109
         //        - 109 <= target <= 109
         //Only one valid answer exists.
+
+        //step one: gather up massive numbers in a cycle
+        //step two: compare gathered massive numbers to target number
+        //step three: implement function for code to not repeat gathered numbers
+        //step four: add up gathered numbers and compare the sum to the target number, if incorrect, repeat until it's correct
+
+        //int[] nums = [1, 4, 10, 2];
+        int target = 5;
+
+        for ()
+        {
+            //int[] nums1 = [0];
+            //int[] nums2 = [1];
+            //int[] nums3 = [2];
+            //int[] nums4 = [3];
+            int[] nums = [1, 4, 10, 2];
+
+            Console.WriteLine($"{nums}");
+
+            int sum = 5;
+        }    
     }
 }
