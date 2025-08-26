@@ -15,10 +15,6 @@ class Program
         int num1 = 10;
         int num2 = 20;
         Console.WriteLine($"Sum is: {num1 + num2}");
-
-        for (int i = 0; i < 10; i++)
-        {
-            Console.WriteLine($"Hello: {i + 1}");
-        }
+        hello world
     }
 }
