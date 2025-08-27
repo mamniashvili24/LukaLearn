@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Security;
 
 class Program
 {
@@ -17,5 +18,6 @@ class Program
         Console.WriteLine($"Sum is: {num1 + num2}");
         hello world
             Console.WriteLine("This is a new line added for trying to force create conflict");
+        Console.WriteLine("Hello from branch ConflictBranch!");
     }
 }
