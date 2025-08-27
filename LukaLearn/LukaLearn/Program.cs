@@ -6,22 +6,22 @@ using System.Security.Cryptography.X509Certificates;
 class Program
 {
     static void Main(string[] args)
-    {        
-      Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello, From branch 1!");
-        Console.WriteLine("Hello from branch 2!");
-        Console.WriteLine("Hello from branch 2!");
-        Console.WriteLine("Hello from branch 2!");
-        Console.WriteLine("Hello from branch Luka!");
-        
-        int num1 = 10;
-        int num2 = 20;
-        Console.WriteLine($"Sum is: {num1 + num2}");
-        hello world
-            Console.WriteLine("This is a new line added for trying to force create conflict");
-        10
-          
+    {
+        //Console.WriteLine("Hello, From branch 1!");
+        //Console.WriteLine("Hello, From branch 1!");
+        //Console.WriteLine("Hello, From branch 1!");
+        //Console.WriteLine("Hello from branch 2!");
+        //Console.WriteLine("Hello from branch 2!");
+        //Console.WriteLine("Hello from branch 2!");
+        //Console.WriteLine("Hello from branch Luka!");
+
+        //int num1 = 10;
+        //int num2 = 20;
+        //Console.WriteLine($"Sum is: {num1 + num2}");
+        //hello world
+        //    Console.WriteLine("This is a new line added for trying to force create conflict");
+        //10
+
         //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
         //You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -34,16 +34,18 @@ class Program
 
         int[] nums = { 1, 3, 10, 4 };
         int target = 13;
-        int result = TwoSum(nums, target);
+        var result = TwoSum(nums, target);
         Console.WriteLine($"[{nums[0]}, {nums[1]}]");
     }
 
-    public static void TwoSum()
+    public static void TwoSum(int[] nums, int target)
     {
         for (int i = 0; i < nums.Length; i++)
         {
-            Console.WriteLine($"{nums[0]} + {nums[1]");
+            for(int j = i + 1; j < nums.Length; j++)
+            {
+                Console.WriteLine($"{i} + {j}");
+            }
         }
-
     }
 }
