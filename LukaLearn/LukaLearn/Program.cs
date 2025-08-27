@@ -7,21 +7,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine("Hello, From branch 1!");
-        //Console.WriteLine("Hello, From branch 1!");
-        //Console.WriteLine("Hello, From branch 1!");
-        //Console.WriteLine("Hello from branch 2!");
-        //Console.WriteLine("Hello from branch 2!");
-        //Console.WriteLine("Hello from branch 2!");
-        //Console.WriteLine("Hello from branch Luka!");
-
-        //int num1 = 10;
-        //int num2 = 20;
-        //Console.WriteLine($"Sum is: {num1 + num2}");
-        //hello world
-        //    Console.WriteLine("This is a new line added for trying to force create conflict");
-        //10
-
         //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
         //You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -33,19 +18,23 @@ class Program
         //Explanation: Because nums[0] +nums[1] == 9, we return [0, 1].
 
         int[] nums = { 1, 3, 10, 4 };
-        int target = 13;
+        int target = 14;
         var result = TwoSum(nums, target);
-        Console.WriteLine($"[{nums[0]}, {nums[1]}]");
+        Console.WriteLine($"[{result[0]}, {result[1]}]");
     }
 
-    public static void TwoSum(int[] nums, int target)
+    public static int[] TwoSum(int[] nums, int target)
     {
         for (int i = 0; i < nums.Length; i++)
         {
-            for(int j = i + 1; j < nums.Length; j++)
+            for (int j = i + 1; j < nums.Length; j++)
             {
-                Console.WriteLine($"{i} + {j}");
+                if (nums[i] + nums[j] == target)
+                {
+                    return new int[] { i, j };
+                }
             }
         }
+        throw new ArgumentException("No solution found");
     }
 }
