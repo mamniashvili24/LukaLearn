@@ -17,5 +17,6 @@ class Program
         Console.WriteLine($"Sum is: {num1 + num2}");
         hello world
             Console.WriteLine("This is a new line added for trying to force create conflict");
+        10
     }
 }
